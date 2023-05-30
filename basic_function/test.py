@@ -12,7 +12,7 @@ class CheckSolution:
             "task_name": self.task_name,
             "is_correct": isSolved
         }
-        response = requests.post(self.url, json=data)
+        response = requests.post(self.url, data=data)
         if isSolved:
             # done emoji
             print("✅ Accepted")
