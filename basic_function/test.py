@@ -147,7 +147,7 @@ class TaskNine(CheckSolution):
         return solution(1) == 0
     
     def test_case_2(self, solution):
-        return solution(-.25) == -.75
+        return solution(-.25) == -1.25
     
     def check(self,solution, tg_username):
         isSolve = self.test_case_1(solution) and self.test_case_2(solution)
