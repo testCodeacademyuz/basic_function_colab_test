@@ -36,3 +36,7 @@ class TaskOne(CheckSolution):
 
 
 q0 = TaskOne("basic_func01", "basic_function")
+# def main1():
+#     return 1
+
+# q0.check(main1(), "JalilovJavohir")
